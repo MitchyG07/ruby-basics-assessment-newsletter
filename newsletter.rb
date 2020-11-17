@@ -41,8 +41,6 @@ def calculate_recipients
     subscription
 end
 
-calculate_recipients
-
 def first_n_articles(number_of_articles)
   ARTICLES.first(number_of_articles.to_i)
 end
